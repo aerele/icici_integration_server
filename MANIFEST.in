@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include icici_integration_server *.css
+recursive-include icici_integration_server *.csv
+recursive-include icici_integration_server *.html
+recursive-include icici_integration_server *.ico
+recursive-include icici_integration_server *.js
+recursive-include icici_integration_server *.json
+recursive-include icici_integration_server *.md
+recursive-include icici_integration_server *.png
+recursive-include icici_integration_server *.py
+recursive-include icici_integration_server *.svg
+recursive-include icici_integration_server *.txt
+recursive-exclude icici_integration_server *.pyc
